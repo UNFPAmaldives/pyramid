@@ -34,7 +34,7 @@
   border: 1px solid rgba(0,0,0,.2);
   z-index: 10000;
 
-  font-family: unfpatext;
+  font-family: 'unfpatext';
   font-size: 13px;
   text-align: left;
   pointer-events: none;
@@ -158,11 +158,11 @@ svg {
 
 
 svg text {
-  font: normal 12px unfpatext;
+  font: normal 12px 'unfpatext';
 }
 
 svg .title {
- font: bold 14px unfpabold;
+ font: bold 14px 'unfpabold';
 }
 
 .nvd3 .nv-background {
