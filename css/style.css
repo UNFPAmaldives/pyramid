@@ -1,0 +1,14 @@
+html, body, #chart, svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+.nv-x text{
+  font-size: 5px;
+  fill: black;
+}
+.nv-y text{
+  font-size: 10px;
+  fill:black;
+}
