@@ -2,15 +2,59 @@ html, body, #chart, svg {
   width: 100%;
   height: 100%;
 }
-
-
 .nv-x text{
-  font-size: 5px;
+  font-size: 10px;
   fill: black;
 }
 .nv-y text{
   font-size: 10px;
   fill:black;
+}
+h1 {
+ font: 'unfpabold';
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+ font-weight: light;
+}
+h2 {
+ text-align: center;
+ margin: 0px 0px -5px 0px;
+}
+
+
+html {
+  margin: 0.75em;
+  color: #444;
+  font: 200 100%/1.5 'unfpatext', sans-serif;
+}
+
+h1 {
+  font: 400 2.5em/1 'unfpabold', serif;
+ text-align: center;
+}
+
+a {
+  color: #444;
+}
+
+body {
+  font-family: 'unfpatext';
+  font-weight: 100;
+  font-size: 11px;
+  padding: 10px;
+  //background: #f9fafb;
+  //color: #112;
+}
+chart {
+  font-family: 'unfpatext';
+  font-weight: 100;
+  font-size: 11px;
+  padding: 10px;
+  background: #f9fafb;
+  color: #112;
+}
+.tick line {
+  display: none;
 }
 @font-face {
     font-family: 'unfpabold';
@@ -62,3 +106,4 @@ html, body, #chart, svg {
     font-weight: normal;
     font-style: normal;
 }
+
