@@ -3554,7 +3554,7 @@ tbody.collapse.in {
       padding: 10px 15px; }
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
-        background-color: #eeeeee; }
+        background-color: #fc3; }
     .nav > li.disabled > a {
       color: #777777; }
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
@@ -3563,7 +3563,7 @@ tbody.collapse.in {
         background-color: transparent;
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #eeeeee;
+    background-color: #fc3;
     border-color: #337ab7; }
   .nav .nav-divider {
     height: 1px;
@@ -5885,7 +5885,7 @@ strong {
   font-weight: 400; }
 
 a {
-  color: #2e6d9d; }
+  color: #0091ca; }
 
 /* FONTS */
 .postoni-standard, .pgH1.postoni-standard, .postoni-standard.pgHeadline--wKicker,
@@ -6136,7 +6136,7 @@ body {
   float: left; }
 
 .pgByline-author {
-  color: #2e6d9d; }
+  color: #0091ca; }
 
 .pgByline-twitter {
   display: inline-block;
@@ -7124,7 +7124,7 @@ div[data-show-on-scroll="true"] {
   color: #f0f0f0; }
 
 .footer-v2 a:hover {
-  color: #2E6D9D; }
+  color: #0091ca; }
 
 .pb-f-theme-dark .footer-v2 a:hover {
   color: #1d87d8; }
@@ -7281,7 +7281,7 @@ div[data-show-on-scroll="true"] {
       background-color: #5a5a5a;
       border-color: #5a5a5a; }
   .pg-button.pg-button--emphasize-alt {
-    background-color: #2e6d9d;
+    background-color: #0091ca;
     color: white; }
     .pg-button.pg-button--emphasize-alt:hover {
       background-color: #468cbe;
@@ -7351,12 +7351,12 @@ div[data-show-on-scroll="true"] {
   content: "\f0a6"; }
 
 .helper--expand {
-  color: #2e6d9d;
+  color: #0091ca;
   cursor: pointer; }
   .helper--expand::after {
     content: "\f0d7"; }
   .helper--expand.helper--emphasize {
-    color: #2e6d9d; }
+    color: #0091ca; }
 
 .helper--expand-close::after {
   content: "\f0d8"; }
@@ -7511,9 +7511,12 @@ header.nav-wrap {
 .series-sig {
   display: inline-block;
   margin-left: 15px;
-  padding: 15px;
+  padding-top: 12px;
+  padding-left: 15px;
+  padding-right: 15px
+  padding-bottom: 15px;
   font-size: 18px;
-  font-family: "PostoniStandardBold", Georgia, serif;
+  font-family: "PostoniBold", Georgia, serif;
   vertical-align: middle;
   text-transform: uppercase;
   opacity: 1;
